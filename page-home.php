@@ -72,5 +72,17 @@ get_header();
         </div>
       </div>
     </div>
+    
+    <script>
+        window.onscroll = scroll;
+
+        function scroll () {
+        if (jQuery(document).scrollTop() > 0) {
+            jQuery('nav').addClass('bg-azul').removeClass('bg-transparent');
+        } else {
+            jQuery('nav').removeClass('bg-azul').addClass('bg-transparent');
+        }
+        }
+    </script>
 
 <?php get_footer();
