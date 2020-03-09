@@ -10,5 +10,26 @@
 // Color system
 //
 
-$primary: #7C008C;
+$primary: #00558E;
+$danger: #DA2675;
+$graduacao: #257CAD;
+$tecnologo: #44008C;
+$mba: #008C82;
+$dark-blue: #012C44;
+$light-blue: #2782AA;
+$green: #3DA8AF;
 
+$theme-colors: (
+  "graduacao": #257CAD,
+  "tecnologo": #44008C,
+  "mba": #008C82,
+  "pink": #D42977,
+  "dark-blue": #012C44,
+  "light-blue": #2782AA,
+  "green": #3DA8AF,
+);
+
+$enable-responsive-font-sizes: true;
+$montserrat: 'Montserrat', sans-serif;
+$playfair: 'Playfair Display', sans-serif;
+$headings-font-family: $montserrat;
