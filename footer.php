@@ -79,11 +79,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 <script src="https://cdn.jsdelivr.net/npm/lity@2.4.0/dist/lity.min.js"></script>
 
 <script type="text/javascript">
-    $(document).ready(function () {
-      $(".hamburger-button a").click(function () {
-        $(".overlay").fadeToggle(200);
-        $(this).toggleClass('btn-open').toggleClass('btn-close');
-        $('.hamburger-button').toggleClass('position-fixed');
+    jQuery(document).ready(function () {
+      jQuery(".hamburger-button a").click(function () {
+        jQuery(".overlay").fadeToggle(200);
+        jQuery(this).toggleClass('btn-open').toggleClass('btn-close');
+        jQuery('.hamburger-button').toggleClass('position-fixed');
       });
     });
   </script>
