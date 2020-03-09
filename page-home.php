@@ -16,7 +16,7 @@ get_header();
 // 	the_post();
 // endwhile; ?>
 
-    <div class="py-5 bg-azul">
+    <div class="pb-5 bg-azul" style="padding-top: 5rem;">
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
