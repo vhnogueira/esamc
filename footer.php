@@ -45,6 +45,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php wp_footer(); ?>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/lity@2.4.0/dist/lity.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+      $(".hamburger-button a").click(function () {
+        $(".overlay").fadeToggle(200);
+        $(this).toggleClass('btn-open').toggleClass('btn-close');
+        $('.hamburger-button').toggleClass('position-fixed');
+      });
+    });
+  </script>
+
 </body>
 
 </html>
