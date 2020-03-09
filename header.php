@@ -72,7 +72,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
                         'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-                        'after'           => '',
 					)
 				); ?>
                 <div class="navbar-nav ml-auto">
