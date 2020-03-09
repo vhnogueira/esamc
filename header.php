@@ -30,7 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
-		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
+		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-transparent" aria-labelledby="main-nav-label">
 
 			<h2 id="main-nav-label" class="sr-only">
 				<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
@@ -57,9 +57,32 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					} ?><!-- end custom logo -->
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
-				</button>
+                </button> -->
+                
+                <?php 
+                    $icones_redes_sociais = '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
+                    $icones_redes_sociais .= the_field('link_facebook');
+                    $icones_redes_sociais .= '" target="_blank">';
+                    $icones_redes_sociais .= '<i class="fa fa-facebook fa-1x text-light-blue"></i>';
+                    $icones_redes_sociais .= '</a>';
+                    $icones_redes_sociais .= '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
+                    $icones_redes_sociais .= the_field('link_linkedin');
+                    $icones_redes_sociais .= '" target="_blank">';
+                    $icones_redes_sociais .= '<i class="fa fa-linkedin fa-1x text-light-blue"></i>';
+                    $icones_redes_sociais .= '</a>';
+                    $icones_redes_sociais .= '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
+                    $icones_redes_sociais .= the_field('link_youtube'); 
+                    $icones_redes_sociais .= ' target="_blank">';
+                    $icones_redes_sociais .= '<i class="fa fa-youtube fa-1x text-light-blue"></i>';
+                    $icones_redes_sociais .= '</a>';
+                    $icones_redes_sociais .= '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
+                    $icones_redes_sociais .= the_field('link_instagram');
+                    $icones_redes_sociais .= '>" target="_blank">';
+                    $icones_redes_sociais .= '<i class="fa fa-instagram fa-1x text-light-blue"></i>';
+                    $icones_redes_sociais .= '</a>';
+                ?>
 
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
@@ -71,22 +94,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+                        'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+                        'after'           => '$icones_redes_sociais',
 					)
 				); ?>
                 <div class="navbar-nav ml-auto">
-                    <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_facebook'); ?>" target="_blank">
-                    <i class="fa fa-facebook fa-1x text-light-blue"></i>
-                </a>
-                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_linkedin'); ?>" target="_blank">
-                    <i class="fa fa-linkedin fa-1x text-light-blue"></i>
-                </a>
-                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_youtube'); ?>" target="_blank">
-                    <i class="fa fa-youtube fa-1x text-light-blue"></i>
-                </a>
-                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_instagram'); ?>" target="_blank">
-                    <i class="fa fa-instagram fa-1x text-light-blue"></i>
-                </a>
+                
                 </div>
 			<?php if ( 'container' === $container ) : ?>
 			</div><!-- .container -->
@@ -95,3 +108,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</nav><!-- .site-navigation -->
 
 	</div><!-- #wrapper-navbar end -->
+
