@@ -95,14 +95,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
                         'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-                        'after'           => '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="http://facebook.com"><i
-              class="fa fa-facebook fa-2x text-light-blue"></i></a>
-          <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="http://linkedin.com"><i
-              class="fa fa-linkedin fa-2x text-light-blue"></i></a>
-          <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="http://youtube.com"><i
-              class="fa fa-youtube fa-2x text-light-blue"></i></a>
-          <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="http://instagram.com"><i
-              class="fa fa-instagram fa-2x text-light-blue"></i></a>',
+                        'after'           => 'teste',
 					)
 				); ?>
                 <div class="navbar-nav ml-auto">
