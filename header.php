@@ -74,18 +74,20 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
-                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_facebook'); ?>" target="_blank">
-                    <i class="fa fa-facebook fa-2x text-light-blue"></i>
+                <div class="navbar-nav ml-auto">
+                    <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_facebook'); ?>" target="_blank">
+                    <i class="fa fa-facebook fa-1x text-light-blue"></i>
                 </a>
                 <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_linkedin'); ?>" target="_blank">
-                    <i class="fa fa-linkedin fa-2x text-light-blue"></i>
+                    <i class="fa fa-linkedin fa-1x text-light-blue"></i>
                 </a>
                 <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_youtube'); ?>" target="_blank">
-                    <i class="fa fa-youtube fa-2x text-light-blue"></i>
+                    <i class="fa fa-youtube fa-1x text-light-blue"></i>
                 </a>
                 <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_instagram'); ?>" target="_blank">
-                    <i class="fa fa-instagram fa-2x text-light-blue"></i>
+                    <i class="fa fa-instagram fa-1x text-light-blue"></i>
                 </a>
+                </div>
 			<?php if ( 'container' === $container ) : ?>
 			</div><!-- .container -->
 			<?php endif; ?>
