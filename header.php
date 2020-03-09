@@ -59,30 +59,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
-                </button> -->
-                
-                <?php 
-                    // $icones_redes_sociais = '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
-                    // $icones_redes_sociais .= the_field('link_facebook');
-                    // $icones_redes_sociais .= '" target="_blank">';
-                    // $icones_redes_sociais .= '<i class="fa fa-facebook fa-1x text-light-blue"></i>';
-                    // $icones_redes_sociais .= '</a>';
-                    // $icones_redes_sociais .= '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
-                    // $icones_redes_sociais .= the_field('link_linkedin');
-                    // $icones_redes_sociais .= '" target="_blank">';
-                    // $icones_redes_sociais .= '<i class="fa fa-linkedin fa-1x text-light-blue"></i>';
-                    // $icones_redes_sociais .= '</a>';
-                    // $icones_redes_sociais .= '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
-                    // $icones_redes_sociais .= the_field('link_youtube'); 
-                    // $icones_redes_sociais .= ' target="_blank">';
-                    // $icones_redes_sociais .= '<i class="fa fa-youtube fa-1x text-light-blue"></i>';
-                    // $icones_redes_sociais .= '</a>';
-                    // $icones_redes_sociais .= '<a class="btn btn-light mb-2 d-none d-lg-inline-block" href="';
-                    // $icones_redes_sociais .= the_field('link_instagram');
-                    // $icones_redes_sociais .= '>" target="_blank">';
-                    // $icones_redes_sociais .= '<i class="fa fa-instagram fa-1x text-light-blue"></i>';
-                    // $icones_redes_sociais .= '</a>';
-                ?>
+				</button> -->
 
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
@@ -95,10 +72,22 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
                         'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+                        'after'           => '',
 					)
 				); ?>
                 <div class="navbar-nav ml-auto">
-                
+                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_facebook'); ?>" target="_blank">
+                    <i class="fa fa-facebook fa-1x text-light-blue"></i>
+                </a>
+                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_linkedin'); ?>" target="_blank">
+                    <i class="fa fa-linkedin fa-1x text-light-blue"></i>
+                </a>
+                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_youtube'); ?>" target="_blank">
+                    <i class="fa fa-youtube fa-1x text-light-blue"></i>
+                </a>
+                <a class="btn btn-light mb-2 d-none d-lg-inline-block" href="<?php the_field('link_instagram'); ?>" target="_blank">
+                    <i class="fa fa-instagram fa-1x text-light-blue"></i>
+                </a>
                 </div>
 			<?php if ( 'container' === $container ) : ?>
 			</div><!-- .container -->
