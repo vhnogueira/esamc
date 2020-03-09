@@ -50,14 +50,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</div>
 					<button type="submit" class="btn btn-danger mb-2 newsletter-submit">Assinar</button>
 				</form>
-				<a class="btn btn-light mb-2" href="http://facebook.com"><i
-					class="fab fa-facebook fa-2x text-light-blue"></i></a>
-				<a class="btn btn-light mb-2" href="http://linkedin.com"><i
-					class="fab fa-linkedin fa-2x text-light-blue"></i></a>
-				<a class="btn btn-light mb-2" href="http://youtube.com"><i
-					class="fab fa-youtube fa-2x text-light-blue"></i></a>
-				<a class="btn btn-light mb-2" href="http://instagram.com"><i
-					class="fab fa-instagram fa-2x text-light-blue"></i></a>
+					<a class="btn btn-light mb-2 ml-1 d-none d-lg-inline-block" href="<?php the_field('link_facebook', 'option'); ?>" target="_blank">
+                        <i class="fa fa-facebook fa-1x text-light-blue"></i>
+                    </a>
+                    <a class="btn btn-light mb-2 ml-1 d-none d-lg-inline-block" href="<?php the_field('link_linkedin', 'option'); ?>" target="_blank">
+                        <i class="fa fa-linkedin fa-1x text-light-blue"></i>
+                    </a>
+                    <a class="btn btn-light mb-2 ml-1 d-none d-lg-inline-block" href="<?php the_field('link_youtube', 'option'); ?>" target="_blank">
+                        <i class="fa fa-youtube fa-1x text-light-blue"></i>
+                    </a>
+                    <a class="btn btn-light mb-2 ml-1 d-none d-lg-inline-block" href="<?php the_field('link_instagram', 'option'); ?>" target="_blank">
+                        <i class="fa fa-instagram fa-1x text-light-blue"></i>
+                    </a>
 			</div>
 
 		</div><!-- row end -->
