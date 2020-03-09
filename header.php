@@ -92,7 +92,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div><!-- .container -->
 			<?php endif; ?>
 
-		</nav><!-- .site-navigation -->
+        </nav><!-- .site-navigation -->
+        
+    <div class="hamburger-button">
+      <a class="btn-open h5" href="#"><span class="ml-2 text-white montserrat text-uppercase h5 d-none d-lg-inline-block">Categorias</span></a>
+    </div>
 
 	</div><!-- #wrapper-navbar end -->
 
