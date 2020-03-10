@@ -16,7 +16,7 @@ get_header();
 // 	the_post();
 // endwhile; ?>
 
-    <div class="pb-5 bg-azul" style="padding-top: 9rem;">
+    <div class="pb-5 bg-azul" id="home-1" style="padding-top: 9rem;">
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
@@ -73,7 +73,7 @@ get_header();
       </div>
     </div>
 
-    <div class="bg-clear py-5">
+    <div class="bg-clear py-5" id="home-2">
     <div class="container">
       <p class="h1 text-center mb-5 font-weight-bold playfair text-secondary">Vídeos</p>
       <div class="row">
@@ -134,6 +134,102 @@ get_header();
       </div>
       <div class="text-center">
         <a href="/clientes/esamcwp/videos.html" class="btn btn-primary btn-lg">Todos os vídeos</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-5" id="home-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <p class="h3 text-secondary font-weight-bold mb-4 playfair">eBooks</p>
+
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-mba text-uppercase">MBA</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-mba small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-graduacao text-uppercase">Graduação</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-graduacao small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-tecnologo text-uppercase">Tecnólogo</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-tecnologo small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-mba text-uppercase">MBA</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-mba small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-graduacao text-uppercase">Graduação</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-graduacao small-divider">
+          </div>
+
+          <a href="/clientes/esamcwp/ebooks.html" class="btn btn-primary btn-lg">Todos os eBooks</a>
+
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <p class="h3 text-secondary font-weight-bold mb-4 playfair">Próximos Eventos</p>
+
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-mba text-uppercase">MBA</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-mba small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-graduacao text-uppercase">Graduação</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-graduacao small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-tecnologo text-uppercase">Tecnólogo</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-tecnologo small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-mba text-uppercase">MBA</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-mba small-divider">
+          </div>
+          <div class="mb-4">
+            <p class="tag mb-1 font-weight-bolder text-graduacao text-uppercase">Graduação</p>
+            <a href="#" class="h6 mb-4 font-weight-bold text-dark-blue">Em dúvida do curso? A gente
+              ajuda!</a>
+            <hr class="border-graduacao small-divider">
+          </div>
+
+          <a href="/clientes/esamcwp/eventos.html" class="btn btn-primary btn-lg">Todos os eventos</a>
+
+        </div>
+        <div class="col-lg-4 align-self-center mt-4 mt-lg-0">
+          <div class="row">
+            <div class="col-12 align-self-center">
+              <p
+                class="h3 text-secondary text-center text-lg-left font-weight-bold mb-4 playfair d-lg-block mx-3 mx-lg-0">
+                Parceiros</p>
+            </div>
+            <div class="col-6 align-self-center col-lg-12">
+              <img src="./img/ciee.png" class="mx-3 mx-lg-0 mb-lg-4 img-fluid d-block mx-auto" alt="">
+            </div>
+            <div class="col-6 align-self-center col-lg-12">
+              <img src="./img/burh.png" class="mx-3 mx-lg-0 mb-lg-4 img-fluid d-block mx-auto" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
