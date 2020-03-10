@@ -28,7 +28,7 @@ get_header();
                   <div class="mb-2"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">Graduação</span>
                   </div>
 
-                  <a class="btn p-0 card-title text-light text-left" href="/clientes/esamcwp/artigo"><span
+                  <a class="btn p-0 card-title text-light text-left" href="/clientes/2esamc/artigo"><span
                       class="h3 font-weight-bold playfair">Em
                       dúvida do curso? A gente ajuda!</span></a>
                 </div>
@@ -39,7 +39,7 @@ get_header();
             <div class="row">
               <div class="col-6 col-lg-12 mb-2 category-mba">
                 <div class="mb-2"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">MBA</span></div>
-                <a href="/clientes/esamcwp/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
+                <a href="/clientes/2esamc/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
                   dúvida do curso? A gente
                   ajuda!</a>
                 <hr class="border-white small-divider">
@@ -47,7 +47,7 @@ get_header();
               <div class="col-6 col-lg-12 mb-2 category-tecnologo">
                 <div class="mb-2"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">Tecnólogo</span>
                 </div>
-                <a href="/clientes/esamcwp/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
+                <a href="/clientes/2esamc/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
                   dúvida do curso? A gente
                   ajuda!</a>
                 <hr class="border-white small-divider">
@@ -55,14 +55,14 @@ get_header();
               <div class="col-6 col-lg-12 mb-2 category-graduacao">
                 <div class="mb-2"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">Graduação</span>
                 </div>
-                <a href="/clientes/esamcwp/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
+                <a href="/clientes/2esamc/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
                   dúvida do curso? A gente
                   ajuda!</a>
                 <hr class="border-white small-divider">
               </div>
               <div class="col-6 col-lg-12 mb-2 category-mba">
                 <div class="mb-2"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">MBA</span></div>
-                <a href="/clientes/esamcwp/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
+                <a href="/clientes/2esamc/artigo" class="h6 btn text-left p-0 mb-0 font-weight-bold text-light">Em
                   dúvida do curso? A gente
                   ajuda!</a>
                 <hr class="border-white small-divider">
@@ -133,7 +133,7 @@ get_header();
 
       </div>
       <div class="text-center">
-        <a href="/clientes/esamcwp/videos" class="btn btn-primary btn-lg">Todos os vídeos</a>
+        <a href="/clientes/2esamc/videos" class="btn btn-primary btn-lg">Todos os vídeos</a>
       </div>
     </div>
   </div>
@@ -175,7 +175,7 @@ get_header();
             <hr class="border-graduacao small-divider">
           </div>
 
-          <a href="/clientes/esamcwp/ebooks" class="btn btn-primary btn-lg">Todos os eBooks</a>
+          <a href="/clientes/2esamc/ebooks" class="btn btn-primary btn-lg">Todos os eBooks</a>
 
         </div>
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
@@ -212,7 +212,7 @@ get_header();
             <hr class="border-graduacao small-divider">
           </div>
 
-          <a href="/clientes/esamcwp/eventos" class="btn btn-primary btn-lg">Todos os eventos</a>
+          <a href="/clientes/2esamc/eventos" class="btn btn-primary btn-lg">Todos os eventos</a>
 
         </div>
         <div class="col-lg-4 align-self-center mt-4 mt-lg-0">
