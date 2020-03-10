@@ -11,6 +11,6 @@ defined( 'ABSPATH' ) || exit;
 
 get_header(); ?>
 
-
+    Eventos
 
 <?php get_footer();

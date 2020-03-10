@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 get_header(); ?>
 
-    <div class="bg-clear py-5">
+  <div class="bg-clear py-5">
     <div class="container">
       <div class="row">
 
