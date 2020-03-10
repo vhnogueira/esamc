@@ -72,15 +72,15 @@ get_header();
         </div>
       </div>
     </div>
-    
+
     <script>
         window.onscroll = scroll;
 
         function scroll () {
         if (jQuery(document).scrollTop() > 0) {
-            jQuery('nav').addClass('bg-azul').removeClass('bg-transparent');
+            jQuery('nav').addClass('scrolled');
         } else {
-            jQuery('nav').removeClass('bg-azul').addClass('bg-transparent');
+            jQuery('nav').removeClass('scrolled');
         }
         }
     </script>
