@@ -133,7 +133,7 @@ get_header();
 
       </div>
       <div class="text-center">
-        <a href="/clientes/esamcwp/videos.html" class="btn btn-primary btn-lg">Todos os vídeoss</a>
+        <a href="/clientes/esamcwp/videos.html" class="btn btn-primary btn-lg">Todos os vídeos</a>
       </div>
     </div>
   </div>
@@ -233,17 +233,5 @@ get_header();
       </div>
     </div>
   </div>
-
-    <script>
-        window.onscroll = scroll;
-
-        function scroll () {
-        if (jQuery(document).scrollTop() > 0) {
-            jQuery('nav').addClass('scrolled shadow');
-        } else {
-            jQuery('nav').removeClass('scrolled shadow');
-        }
-        }
-    </script>
-
+  
 <?php get_footer();

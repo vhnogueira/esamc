@@ -79,6 +79,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <script src="https://cdn.jsdelivr.net/npm/lity@2.4.0/dist/lity.min.js"></script>
 
 <script type="text/javascript">
+
     jQuery(document).ready(function () {
       jQuery(".hamburger-button a").click(function () {
         jQuery(".overlay").fadeToggle(200);
@@ -86,6 +87,18 @@ $container = get_theme_mod( 'understrap_container_type' );
         jQuery('.hamburger-button').toggleClass('position-fixed');
       });
     });
+
+	window.onscroll = scroll;
+
+	function scroll () {
+	if (jQuery(document).scrollTop() > 0) {
+		jQuery('nav').addClass('scrolled shadow');
+	} else {
+		jQuery('nav').removeClass('scrolled shadow');
+	}
+	}
+
+
   </script>
 
 </body>
