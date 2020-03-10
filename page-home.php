@@ -133,7 +133,7 @@ get_header();
 
       </div>
       <div class="text-center">
-        <a href="/clientes/esamcwp/videos.html" class="btn btn-primary btn-lg">Todos os vídeos</a>
+        <a href="/clientes/esamcwp/videos.html" class="btn btn-primary btn-lg">Todos os vídeoss</a>
       </div>
     </div>
   </div>
