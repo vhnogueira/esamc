@@ -143,9 +143,9 @@ get_header();
 
         function scroll () {
         if (jQuery(document).scrollTop() > 0) {
-            jQuery('nav').addClass('scrolled');
+            jQuery('nav').addClass('scrolled shadow');
         } else {
-            jQuery('nav').removeClass('scrolled');
+            jQuery('nav').removeClass('scrolled shadow');
         }
         }
     </script>
