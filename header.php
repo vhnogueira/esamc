@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<div id="wrapper-navbar" class="<?php if ( is_front_page() ) : ?>fixed-top<?php else : ?>sticky-top<?php endif; ?>">
+	<div id="wrapper-navbar" class="<?php if ( is_front_page() ) : ?> fixed-top <?php else : ?> sticky-top <?php endif; ?>">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
