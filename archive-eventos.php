@@ -18,7 +18,6 @@ get_header(); ?>
       <?php 
         // the query
         $the_query = new WP_Query( array(
-          'category_name' => 'news',
           'posts_per_page' => 3,
           'post_type' => 'eventos',
         )); 
@@ -29,6 +28,19 @@ get_header(); ?>
 
           <?php the_title(); ?>
           <?php the_excerpt(); ?>
+
+        <div class="col-md-4">
+          <div class="card border-0 shadow">
+            <img class="img-fluid mb-2 rounded" src="<?php $imagem = get_field('imagem');echo esc_url($image['url']);?>" alt="<?php the_title(); ?>">
+            <div class="card-body">
+              <div class="mb-3 category-tecnologo"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">Tecnólogo</span>
+              </div>
+              <p class="h4 font-weight-bold mb-3"><?php the_title(); ?></p>
+              <p><?php the_field('texto'); ?></p>
+              <a href="<?php the_field('link_botao'); ?>" class="btn btn-primary btn-block btn-lg"><?php the_field('texto_botao'); ?></a>
+            </div> 
+          </div>
+        </div>
 
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
