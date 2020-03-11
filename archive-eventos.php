@@ -15,6 +15,28 @@ get_header(); ?>
     <div class="container">
       <div class="row">
 
+      <?php 
+        // the query
+        $the_query = new WP_Query( array(
+          'category_name' => 'news',
+          'posts_per_page' => 3,
+          'post_type' => 'eventos',
+        )); 
+      ?>
+
+      <?php if ( $the_query->have_posts() ) : ?>
+        <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
+          <?php the_title(); ?>
+          <?php the_excerpt(); ?>
+
+        <?php endwhile; ?>
+        <?php wp_reset_postdata(); ?>
+
+      <?php else : ?>
+        <p><?php __('No News'); ?></p>
+      <?php endif; ?>
+
         <div class="col-md-4">
           <div class="card border-0 shadow">
             <img class="img-fluid mb-2 rounded" src="https://placeimg.com/800/400/tech" alt="Card image">
