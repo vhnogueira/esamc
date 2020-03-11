@@ -24,14 +24,13 @@ get_header(); ?>
       ?>
 
       <?php if ( $the_query->have_posts() ) : ?>
+        <div class="card-deck">
         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-
-          <?php the_title(); ?>
-          <?php the_excerpt(); ?>
 
         <div class="col-md-4">
           <div class="card border-0 shadow">
-            <img class="img-fluid mb-2 rounded" src="<?php $imagem = get_field('imagem');echo esc_url($image['url']);?>" alt="<?php the_title(); ?>">
+          <?php $imagem = get_field('imagem'); ?>
+            <img class="img-fluid mb-2 rounded" src="<?php echo esc_url($imagem['url']); ?>" alt="<?php the_title(); ?>">
             <div class="card-body">
               <div class="mb-3 category-tecnologo"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">Tecnólogo</span>
               </div>
@@ -43,10 +42,11 @@ get_header(); ?>
         </div>
 
         <?php endwhile; ?>
+        </div>
         <?php wp_reset_postdata(); ?>
 
       <?php else : ?>
-        <p><?php __('No News'); ?></p>
+        <p><?php __('Sem eventos'); ?></p>
       <?php endif; ?>
 
         <div class="col-md-4">
@@ -61,8 +61,6 @@ get_header(); ?>
             </div> 
           </div>
         </div>
-
-
       </div>
     </div>
 
