@@ -28,11 +28,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" class="<?php if ( is_front_page() ) : ?>
 
-							'fixed-top'
+							fixed-top
 
 						<?php else : ?>
 
-							'sticky-top'
+							sticky-top
 
 						<?php endif; ?>">
 
