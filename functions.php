@@ -43,8 +43,3 @@ if( function_exists('acf_add_options_page') ) {
 	));
 
 }
-
-add_filter('term_links-post_tag','limit_to_one_tags');
-function limit_to_five_tags($terms) {
-return array_slice($terms,0,1,true);
-}
