@@ -107,61 +107,58 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="bg-azul overlay bg-azul">
       <div class="h-100">
         <div class="container">
-          <div class="row text-white">
-            <div class="col-lg">
+          <div class="row text-white justify-content-center">
+            <div class="col-md-3 mt-lg-3">
               <div class="bg-img-1 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Acontece na ESAMC</span></a>
               </div>
             </div>
-            <div class="col-lg">
+            <div class="col-md-3 mt-lg-3">
               <div class="bg-img-2 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Conteúdos</span></a>
               </div>
             </div>
-            <div class="col-lg">
+            <div class="col-md-3 mt-lg-3">
               <div class="bg-img-3 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Vídeos</span></a>
               </div>
             </div>
-            <div class="col-lg">
+            <!-- <div class="col-md-3 mt-lg-3">
               <div class="bg-img-4 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Eventos</span></a>
               </div>
-            </div>
-            <div class="col-lg">
+            </div> -->
+            <div class="col-md-3 mt-lg-3">
               <div class="bg-img-5 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Parceiros</span></a>
               </div>
             </div>
-          </div>
-          <div class="row mt-lg-3 text-white">
-            <div class="col-lg">
-
-            </div>
-            <div class="col-lg">
+          <!-- </div>
+          <div class="row mt-lg-3 text-white"> -->
+            <div class="col-md-3 mt-lg-3">
               <div class="bg-img-1 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Experiência ESAMC</span></a>
               </div>
             </div>
-            <div class="col-lg">
+            <div class="col-md-3 mt-lg-3">
               <div class="bg-img-2 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Entidades Estudantis</span></a>
               </div>
             </div>
-            <div class="col-lg">
+            <!-- <div class="col-md-3 mt-lg-3">
               <div class="bg-img-3 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">Web Série</span></a>
               </div>
-            </div>
-            <div class="col-lg">
+            </div> -->
+            <div class="col-md-3 mt-lg-3">
               <div class="bg-img-4 shadow rounded">
                 <a href="/clientes/esamcwp/acontece-na-esamc.html" class="btn text-white playfair p-4 py-5 w-100"><span
                     class="h4 playfair">eBooks</span></a>
