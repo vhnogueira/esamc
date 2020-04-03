@@ -14,6 +14,28 @@ get_header(); ?>
   <div class="bg-clear py-5">
     <div class="container">
       <div class="row">
+      <div class="col-md-12">
+        <?php 
+          // the query
+          $the_query = new WP_Query( array(
+            'post_type' => 'ebooks',
+            'posts_per_page' => -1,
+          )); 
+        ?>
+
+        <?php if ( $the_query->have_posts() ) : ?>
+          <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
+            <?php the_title(); ?>
+            <?php the_excerpt(); ?>
+
+          <?php endwhile; ?>
+          <?php wp_reset_postdata(); ?>
+
+        <?php else : ?>
+          <p><?php __('Nenhum eBook cadastrado'); ?></p>
+        <?php endif; ?>
+      </div>
 
         <div class="col-md-4">
           <div class="card border-0 shadow">
