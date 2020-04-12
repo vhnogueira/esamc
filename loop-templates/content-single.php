@@ -21,6 +21,16 @@ defined( 'ABSPATH' ) || exit;
 
 		<div class="row">
 			<div class="col-sm-3">
+
+			<?php
+			// $user = wp_get_current_user();
+			$user = get_the_author();
+			
+			if ( $user ) :
+				?>
+				<img src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" />
+			<?php endif; ?>
+
 				<?php
 				if ( isset( $_GET['author_name'] ) ) {
 					$curauth = get_user_by( 'slug', $author_name );
