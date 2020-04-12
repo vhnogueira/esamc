@@ -17,9 +17,19 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php the_title( '<h1 class="entry-title mb-2">', '</h1>' ); ?>
 
-		<div class="entry-meta mb-4">
+		<div class="entry-meta mb-4 bg-light d-inline-block rounded">
 
-			<?php understrap_posted_on(); ?>
+		<div class="row">
+			<div class="col-sm-3">
+				<?php if ( ! empty( $curauth->ID ) ) : ?>
+					<?php echo get_avatar( $curauth->ID ); ?>
+				<?php endif; ?>
+			</div>
+			<div class="col-sm-9">
+				<?php understrap_posted_on(); ?>	
+			</div>
+		</div>
+
 
 		</div><!-- .entry-meta -->
 
