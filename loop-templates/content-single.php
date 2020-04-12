@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<header class="entry-header">
 
-	    <?php echo get_the_post_thumbnail( $post->ID, 'large', '', Array('class' => 'img-fluid mx-auto mb-4') ); ?>
+	    <?php echo get_the_post_thumbnail( $post->ID, 'large', '', Array('class' => 'img-fluid mx-auto d-block w-100 mb-4') ); ?>
 
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 
