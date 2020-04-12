@@ -142,7 +142,7 @@ get_header();
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <p class="h3 text-secondary font-weight-bold mb-4 playfair">eBooks</p>
+          <p class="h3 text-secondary font-weight-bold mb-4 playfair">Materiais Gratuitos</p>
 
           <div class="mb-4">
             <p class="tag mb-1 font-weight-bolder text-mba text-uppercase">MBA</p>
@@ -215,20 +215,16 @@ get_header();
           <a href="/clientes/2esamc/eventos" class="btn btn-primary btn-lg">Todos os eventos</a>
 
         </div>
-        <div class="col-lg-4 align-self-center mt-4 mt-lg-0">
-          <div class="row">
-            <div class="col-12 align-self-center">
-              <p
-                class="h3 text-secondary text-center text-lg-left font-weight-bold mb-4 playfair d-lg-block mx-3 mx-lg-0">
-                Parceiros</p>
-            </div>
-            <div class="col-6 align-self-center col-lg-12">
-              <img src="./img/ciee.png" class="mx-3 mx-lg-0 mb-lg-4 img-fluid d-block mx-auto" alt="">
-            </div>
-            <div class="col-6 align-self-center col-lg-12">
-              <img src="./img/burh.png" class="mx-3 mx-lg-0 mb-lg-4 img-fluid d-block mx-auto" alt="">
-            </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+            <p class="h3 text-secondary text-center text-lg-left font-weight-bold mb-4 playfair d-lg-block mx-3 mx-lg-0">
+              Parceiros
+            </p>
           </div>
+          <div class="col-6 align-self-center col-lg-12">
+            <img src="./img/ciee.png" class="mx-3 mx-lg-0 mb-lg-4 img-fluid d-block mx-auto" alt="">
+          </div>
+          <div class="col-6 align-self-center col-lg-12">
+            <img src="./img/burh.png" class="mx-3 mx-lg-0 mb-lg-4 img-fluid d-block mx-auto" alt="">
         </div>
       </div>
     </div>

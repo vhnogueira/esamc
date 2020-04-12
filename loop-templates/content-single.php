@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
 
 	    <?php echo get_the_post_thumbnail( $post->ID, 'large', Array('class' => 'img-fluid mx-auto d-block w-100 mb-4') ); ?>
 
-		<?php the_title( '<h1 class="entry-title mb-2">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title mb-3">', '</h1>' ); ?>
 
 		<div class="entry-meta mb-4 rounded">
 
@@ -28,11 +28,11 @@ defined( 'ABSPATH' ) || exit;
 			
 			if ( $user ) :
 				?>
-				<img class="img-fluid" style="max-width: 72px;" src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" />
+				<img class="img-fluid rounded-circle" style="max-width: 72px;" src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" />
 			<?php endif; ?>
 
 			</div>
-			<div class="col-sm-9">
+			<div class="col-sm-10 align-self-center">
 				<?php understrap_posted_on(); ?>	
 			</div>
 		</div>
