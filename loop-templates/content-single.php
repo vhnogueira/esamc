@@ -21,6 +21,13 @@ defined( 'ABSPATH' ) || exit;
 
 		<div class="row">
 			<div class="col-sm-3">
+				<?php
+				if ( isset( $_GET['author_name'] ) ) {
+					$curauth = get_user_by( 'slug', $author_name );
+				} else {
+					$curauth = get_userdata( intval( $author ) );
+				}
+				?>
 				<?php if ( ! empty( $curauth->ID ) ) : ?>
 					<?php echo get_avatar( $curauth->ID ); ?>
 				<?php endif; ?>
