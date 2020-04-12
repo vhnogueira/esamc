@@ -41,7 +41,7 @@ defined( 'ABSPATH' ) || exit;
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="entry-footer mb-4">
 
 		<?php understrap_entry_footer(); ?>
 
