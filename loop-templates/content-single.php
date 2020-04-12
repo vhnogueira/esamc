@@ -15,9 +15,9 @@ defined( 'ABSPATH' ) || exit;
 
 	    <?php echo get_the_post_thumbnail( $post->ID, 'large', Array('class' => 'img-fluid mx-auto d-block w-100 mb-4') ); ?>
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title mb-2">', '</h1>' ); ?>
 
-		<div class="entry-meta">
+		<div class="entry-meta mb-4">
 
 			<?php understrap_posted_on(); ?>
 
