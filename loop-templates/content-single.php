@@ -17,10 +17,10 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php the_title( '<h1 class="entry-title mb-2">', '</h1>' ); ?>
 
-		<div class="entry-meta mb-4 bg-light d-inline-block rounded p-3">
+		<div class="entry-meta mb-4 rounded">
 
 		<div class="row">
-			<div class="col-sm-3">
+			<div class="col-sm-2 text-center mb-3 mb-sm-0">
 
 			<?php
 			// $user = wp_get_current_user();
@@ -28,19 +28,9 @@ defined( 'ABSPATH' ) || exit;
 			
 			if ( $user ) :
 				?>
-				<img src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" />
+				<img class="img-fluid" style="max-width: 72px;" src="<?php echo esc_url( get_avatar_url( $user->ID ) ); ?>" />
 			<?php endif; ?>
 
-				<?php
-				if ( isset( $_GET['author_name'] ) ) {
-					$curauth = get_user_by( 'slug', $author_name );
-				} else {
-					$curauth = get_userdata( intval( $author ) );
-				}
-				?>
-				<?php if ( ! empty( $curauth->ID ) ) : ?>
-					<?php echo get_avatar( $curauth->ID ); ?>
-				<?php endif; ?>
 			</div>
 			<div class="col-sm-9">
 				<?php understrap_posted_on(); ?>	
