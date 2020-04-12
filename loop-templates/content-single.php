@@ -17,7 +17,7 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php the_title( '<h1 class="entry-title mb-2">', '</h1>' ); ?>
 
-		<div class="entry-meta mb-4 bg-light d-inline-block rounded">
+		<div class="entry-meta mb-4 bg-light d-inline-block rounded p-3">
 
 		<div class="row">
 			<div class="col-sm-3">
