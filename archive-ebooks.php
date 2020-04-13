@@ -30,8 +30,8 @@ get_header(); ?>
             <div class="card mb-4 border-0 shadow">
               <img class="img-fluid mb-2 rounded" src="https://placeimg.com/800/400/tech" alt="<?php the_title(); ?>">
               <div class="card-body">
-                <!-- <div class="mb-3 category-tecnologo"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">Tecnólogo</span> -->
-                </div>
+                <!-- <div class="mb-3 category-tecnologo"><span class="py-1 px-2 tag rounded text-uppercase mb-2 text-white">Tecnólogo</span>
+                </div> -->
                 <p class="h4 font-weight-bold mb-3"><?php the_title(); ?></p>
                 <p><?php the_field('resumo') ?></p>
               </div>
