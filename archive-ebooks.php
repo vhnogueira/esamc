@@ -35,7 +35,7 @@ get_header(); ?>
                 <p class="h4 font-weight-bold mb-3"><?php the_title(); ?></p>
                 <p><?php the_field('resumo') ?></p>
               </div>
-              <div class="card-footer border-0 bg-white pt-0">
+              <div class="card-footer">
                 <a href="<?php the_field('link_do_botao'); ?>" class="btn btn-primary btn-block btn-lg"><?php the_field('texto_do_botao'); ?></a>
               </div>
             </div>
