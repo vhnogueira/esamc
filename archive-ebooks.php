@@ -36,7 +36,6 @@ get_header(); ?>
               <div class="card-footer border-0 bg-white">
                 <a href="<?php the_field('link_do_botao'); ?>" class="btn btn-primary btn-block btn-lg"><?php the_field('texto_do_botao'); ?></a>
               </div>
-            </div>
 
 
           <?php endwhile; ?>
